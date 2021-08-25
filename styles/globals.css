@@ -1,0 +1,204 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  padding: 15px;
+  background-color: teal;
+}
+
+nav {
+  background-color: teal;
+}
+
+.contenedor {
+  width: 100%;
+  min-height: 100vh;
+}
+
+span.nav-link:hover {
+  cursor: pointer;
+}
+
+div.screen-contenedor {
+  display: flex;
+  min-height: 80vh;
+}
+
+div.item {
+  width: 50%;
+}
+
+div.foto {
+  background-color: darkgrey;
+  width: 90%;
+  height: 60vh;
+}
+
+.imagen {
+  width: 100%;
+  height: 60vh;
+}
+
+.centrar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.separador {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.resultado {
+  padding: 40px;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.margin {
+  padding-top: 20px;
+}
+
+.marginR {
+  margin-top: 98px;
+}
+
+.boton {
+  width: 60%;
+  margin-top: 10px;
+  /* background-color: rgb(66, 131, 131) !important; */
+  background-color: teal !important;
+}
+
+.boton:hover {
+  background-color: rgb(79, 153, 153) !important;
+  /*  background-color: #149c88 !important; */
+}
+
+.boton {
+  outline: none !important;
+  border: none !important;
+}
+
+.boton-margin {
+  margin-bottom: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.input-tracking {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.input-width {
+  width: 70%;
+}
+.label-width {
+  width: 30%;
+}
+
+.form-content {
+  padding: 20px 40px 40px 40px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 17px;
+}
+.titulo {
+  margin-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.content-footer {
+  font-weight: bold;
+  color: white;
+}
+
+.fondo {
+  background-image: url("../public/static/images/fondo.jpg");
+  width: 100%;
+  min-height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn-success {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  outline: none !important;
+  border-width: 0px !important;
+}
+
+.btn-success:focus {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  outline: none !important;
+  border-width: 0px !important;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-item.active {
+  background-color: teal !important;
+}
+
+.dropdown-item.focus {
+  background-color: teal !important;
+}
+
+main {
+  background-color: rgb(212, 211, 211);
+  /* background-color: gray; */
+}
+h2 {
+  /* color: white; */
+  font-weight: bold;
+  /* background-color: gray; */
+  color: teal;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 17px !important;
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+/* button {
+  border-color: transparent !important;
+} */
